@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Be_Vietnam_Pro, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { LenisProvider } from "@/components/lenis-provider"
 import "./globals.css"
 
 /* ================== FONTS ================== */
@@ -59,7 +60,9 @@ export default function RootLayout({
           text-white
         "
       >
-        {children}
+        <LenisProvider>
+          {children}
+        </LenisProvider>
         <Analytics />
       </body>
     </html>
