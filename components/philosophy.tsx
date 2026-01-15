@@ -51,13 +51,19 @@ export function Philosophy() {
   }, [])
 
   return (
-    <section id="about" className="py-32 md:py-29">
+    <section
+      id="about"
+      className="py-32 md:py-29 bg-[#282319] text-gray-300"
+    >
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
-          {/* Left column - Title and image */}
+          {/* Left column */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Cơ sở lý luận</p>
-            <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
+            <p className="text-gray-400 text-sm tracking-[0.3em] uppercase mb-6">
+              Cơ sở lý luận
+            </p>
+
+            <h2 className="text-6xl md:text-6xl lg:text-8xl font-medium leading-[1.15] tracking-tight mb-6 text-balance text-white">
               Lựa chọn
               <br />
               <HighlightedText>đúng đắn</HighlightedText>
@@ -72,11 +78,12 @@ export function Philosophy() {
             </div>
           </div>
 
-          {/* Right column - Description and Philosophy items */}
+          {/* Right column */}
           <div className="space-y-6 lg:pt-48">
-            <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Trong những năm 1940, dân tộc Việt Nam đứng trước nhiều khả năng phát triển khác nhau. Giữa những lựa chọn
-              này, Việt Nam đã lựa chọn con đường đi lên chủ nghĩa xã hội.
+            <p className="text-gray-400 text-lg leading-relaxed max-w-md mb-12">
+              Trong những năm 1940, dân tộc Việt Nam đứng trước nhiều khả năng phát
+              triển khác nhau. Giữa những lựa chọn này, Việt Nam đã lựa chọn con
+              đường đi lên chủ nghĩa xã hội.
             </p>
 
             {philosophyItems.map((item, index) => (
@@ -87,15 +94,23 @@ export function Philosophy() {
                 }}
                 data-index={index}
                 className={`transition-all duration-700 ${
-                  visibleItems.includes(index) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                  visibleItems.includes(index)
+                    ? "opacity-100 translate-y-0"
+                    : "opacity-0 translate-y-8"
                 }`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <div className="flex gap-6">
-                  <span className="text-muted-foreground/50 text-sm font-medium">0{index + 1}</span>
+                  <span className="text-gray-500 text-sm font-medium">
+                    0{index + 1}
+                  </span>
                   <div>
-                    <h3 className="text-xl font-medium mb-3">{item.title}</h3>
-                    <p className="text-muted-foreground leading-relaxed">{item.description}</p>
+                    <h3 className="text-xl font-medium mb-3 text-white">
+                      {item.title}
+                    </h3>
+                    <p className="text-gray-400 leading-relaxed">
+                      {item.description}
+                    </p>
                   </div>
                 </div>
               </div>

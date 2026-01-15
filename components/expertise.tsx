@@ -57,21 +57,31 @@ export function Expertise() {
   }, [])
 
   return (
-    <section id="services" ref={sectionRef} className="py-32 md:py-29">
+    <section
+      id="services"
+      ref={sectionRef}
+      className="py-32 md:py-29 bg-[#282319] text-gray-300"
+    >
       <div className="container mx-auto px-6 md:px-12">
+        {/* Header */}
         <div className="max-w-3xl mb-20">
-          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Tại sao lựa chọn</p>
-          <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
+          <p className="text-gray-400 text-sm tracking-[0.3em] uppercase mb-6">
+            Tại sao lựa chọn
+          </p>
+
+          <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl text-white">
             Chủ nghĩa xã hội
             <br />
             là lựa chọn duy nhất <HighlightedText>đúng</HighlightedText>
           </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Lựa chọn con đường xã hội chủ nghĩa là hoàn toàn đúng đắn, được chứng minh bởi thực tiễn cách mạng Việt Nam
-            trong suốt hơn 75 năm qua.
+
+          <p className="text-gray-400 text-lg leading-relaxed">
+            Lựa chọn con đường xã hội chủ nghĩa là hoàn toàn đúng đắn, được chứng
+            minh bởi thực tiễn cách mạng Việt Nam trong suốt hơn 75 năm qua.
           </p>
         </div>
 
+        {/* Grid */}
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-16">
           {expertiseAreas.map((area, index) => {
             const Icon = area.icon
@@ -82,23 +92,37 @@ export function Expertise() {
                   itemRefs.current[index] = el
                 }}
                 data-index={index}
-                className={`relative pl-8 border-l border-border transition-all duration-700 ${
-                  visibleItems.includes(index) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+                className={`relative pl-8 border-l border-[#3a322a] transition-all duration-700 ${
+                  visibleItems.includes(index)
+                    ? "opacity-100 translate-y-0"
+                    : "opacity-0 translate-y-6"
                 }`}
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
+                {/* Icon */}
                 <div
                   className={`transition-all duration-1000 ${
-                    visibleItems.includes(index) ? "animate-draw-stroke" : ""
+                    visibleItems.includes(index)
+                      ? "animate-draw-stroke"
+                      : ""
                   }`}
                   style={{
                     transitionDelay: `${index * 150}ms`,
                   }}
                 >
-                  <Icon className="w-10 h-10 mb-4 text-foreground" strokeWidth={1.25} />
+                  <Icon
+                    className="w-10 h-10 mb-4 text-[#c8b79a]"
+                    strokeWidth={1.25}
+                  />
                 </div>
-                <h3 className="text-xl font-medium mb-4">{area.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{area.description}</p>
+
+                <h3 className="text-xl font-medium mb-4 text-white">
+                  {area.title}
+                </h3>
+
+                <p className="text-gray-400 leading-relaxed">
+                  {area.description}
+                </p>
               </div>
             )
           })}
