@@ -7,9 +7,9 @@ import "./globals.css"
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Hously — Modern Architecture Experience",
+  title: "Histra —Lựa chọn con đường đi lên chủ nghĩa xã hội",
   description:
-    "We design spaces that elevate living. A refined architectural experience where form, light, and intention meet.",
+    "Khám phá bối cảnh lịch sử năm 1945 và lý do Việt Nam lựa chọn con đường đi lên chủ nghĩa xã hội dưới sự lãnh đạo của Chủ tịch Hồ Chí Minh.",
   generator: "v0.app",
   icons: {
     icon: [
