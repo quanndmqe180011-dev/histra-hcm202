@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     title: "Con đường tư bản chủ nghĩa",
-    category: "Phiếu không khả thi",
+    category: "Không khả thi",
     location: "Phụ thuộc vào các thế lực bên ngoài",
     year: "Loại bỏ",
     image: "/images/hously-1.png",
