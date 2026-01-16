@@ -49,7 +49,7 @@ export function Header() {
 
         <ul className="hidden md:flex items-center gap-10 text-sm tracking-wide">
           {[
-            { label: "Home", href: "#hero" },
+            { label: "Trang chủ", href: "#hero" },
             { label: "Cơ sở lý luận", href: "#about" },
             { label: "Những lựa chọn", href: "#projects" },
             { label: "Lựa chọn tất yếu", href: "#services" },
