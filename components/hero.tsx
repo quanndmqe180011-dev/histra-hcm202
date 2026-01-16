@@ -47,7 +47,7 @@ export function Hero() {
             </p>
 
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-semibold leading-[1] text-white">
-              Năm 1945 <br />
+              Năm 1930 <br />
               <span className="text-[#FFEA98] drop-shadow-[0_0_25px_rgba(255,234,152,0.6)]">
                 Lựa chọn đi lên <br /> chủ nghĩa xã hội
               </span>
