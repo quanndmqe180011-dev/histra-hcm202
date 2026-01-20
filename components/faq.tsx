@@ -5,34 +5,34 @@ import { Plus } from "lucide-react"
 
 const faqs = [
   {
-    question: "Tại sao Việt Nam không lựa chọn con đường tư bản chủ nghĩa?",
+    question: "Vì sao Việt Nam lựa chọn con đường đi lên chủ nghĩa xã hội?",
     answer:
-      "Con đường tư bản chủ nghĩa đòi hỏi nền tảng kinh tế – kỹ thuật cao và quá trình tích lũy tư bản lâu dài. Với xuất phát điểm thấp sau nhiều năm bị đô hộ, Việt Nam khó tránh khỏi nguy cơ phụ thuộc vào các thế lực bên ngoài, mất đi chủ quyền.",
+      "Xuất phát từ yêu cầu giải phóng dân tộc, giải phóng giai cấp và giải phóng con người. Thực tiễn lịch sử cho thấy các con đường cứu nước cũ đều thất bại, chỉ có con đường cách mạng vô sản gắn độc lập dân tộc với chủ nghĩa xã hội mới đáp ứng được yêu cầu phát triển của Việt Nam.",
   },
   {
-    question: "Con đường trung lập có khả thi không?",
+    question: "Năm 1930 có ý nghĩa gì đối với con đường cách mạng Việt Nam?",
     answer:
-      "Một quốc gia mới giành độc lập nhưng không có định hướng phát triển rõ ràng sẽ dễ rơi vào tình trạng bị chi phối, can thiệp từ các cường quốc, khó bảo đảm nền độc lập bền vững trong bối cảnh Chiến tranh Lạnh.",
+      "Năm 1930, Đảng Cộng sản Việt Nam ra đời, đánh dấu việc xác lập chính thức đường lối cách mạng Việt Nam đi lên chủ nghĩa xã hội, chấm dứt tình trạng khủng hoảng về đường lối và giai cấp lãnh đạo.",
   },
   {
-    question: "Cách mạng Tháng Tám năm 1945 có ý nghĩa gì?",
+    question: "Cách mạng Tháng Tám năm 1945 có vai trò gì trong tiến trình đó?",
     answer:
-      "Cách mạng Tháng Tám năm 1945 là sự kiện lịch sử vĩ đại, đánh dấu sự thành công của con đường xã hội chủ nghĩa. Từ đó, Việt Nam đã bước vào giai đoạn xây dựng một nước Việt Nam độc lập, thống nhất.",
+      "Cách mạng Tháng Tám năm 1945 đã lật đổ ách thống trị của thực dân, phong kiến, giành độc lập dân tộc và thành lập Nhà nước Việt Nam Dân chủ Cộng hòa, tạo tiền đề chính trị – pháp lý quan trọng để Việt Nam tiến lên chủ nghĩa xã hội.",
   },
   {
-    question: "Đổi mới từ năm 1986 có mâu thuẫn với chủ nghĩa xã hội không?",
+    question: "Việt Nam bắt đầu xây dựng chủ nghĩa xã hội từ khi nào?",
     answer:
-      "Công cuộc Đổi mới từ 1986 đến nay không phải bỏ lại chủ nghĩa xã hội mà là cách hiện thực hóa nó một cách phù hợp hơn, giúp đất nước phát triển kinh tế, nâng cao đời sống nhân dân trong khuôn khổ xã hội chủ nghĩa.",
+      "Từ năm 1954, sau Hiệp định Giơ-ne-vơ, miền Bắc được giải phóng và bắt đầu xây dựng chủ nghĩa xã hội trên thực tế. Sau năm 1976, khi đất nước thống nhất, Việt Nam tiến hành xây dựng chủ nghĩa xã hội trên phạm vi cả nước.",
   },
   {
-    question: "Tư tưởng Hồ Chí Minh vẫn còn ý nghĩa ngày nay không?",
+    question: "Vì sao Việt Nam quá độ lên CNXH bỏ qua chế độ tư bản chủ nghĩa?",
     answer:
-      "Tư tưởng Hồ Chí Minh vẫn có giá trị sống mãnh liệt. Trong bối cảnh hội nhập quốc tế, Việt Nam tiếp tục kiên định mục tiêu độc lập dân tộc gắn liền với chủ nghĩa xã hội, xây dựng một đất nước giàu mạnh, dân chủ, công bằng, văn minh.",
+      "Do Việt Nam là nước thuộc địa, nửa phong kiến, kinh tế lạc hậu, không trải qua quá trình phát triển tư bản chủ nghĩa đầy đủ. Trong điều kiện lịch sử cụ thể, quá độ lên CNXH bỏ qua chế độ tư bản chủ nghĩa là con đường phù hợp với quy luật và thực tiễn Việt Nam.",
   },
   {
-    question: "Thế hệ trẻ cần làm gì để góp phần xây dựng đất nước?",
+    question: "Đổi mới từ năm 1986 có ý nghĩa gì đối với con đường đi lên CNXH?",
     answer:
-      "Sinh viên – thế hệ trẻ hôm nay – cần học tập, rèn luyện đạo đức, nâng cao năng lực chuyên môn và tinh thần trách nhiệm xã hội. Đây là cách thiết thực nhất để góp phần xây dựng đất nước theo con đường mà Hồ Chí Minh đã lựa chọn.",
+      "Đổi mới năm 1986 là sự vận dụng sáng tạo chủ nghĩa Mác – Lênin và tư tưởng Hồ Chí Minh nhằm khắc phục hạn chế của mô hình cũ, phát triển kinh tế thị trường định hướng xã hội chủ nghĩa, đưa đất nước thoát khỏi khủng hoảng và từng bước phát triển.",
   },
 ]
 
